@@ -1,10 +1,10 @@
-#Установка
+## Установка
 скачать копию кода с репозитория
 необходим php 8.1 и composer
 сделать `composer install`
  проект готов к использованию
- #Использование 
+ ## Использование 
  для создания файла необходимо использовать artisan команду `app:generate-csv {full_path}`
- где full_path - полный путь куда будет сохранен файл
- к примеру php artisan app:generate-csv C:\Temp\example.csv
+ где full_path - полный путь куда будет сохранен файл.
+ К примеру php artisan app:generate-csv C:\Temp\example.csv
  после чего дождитесь оканчания работы программы
