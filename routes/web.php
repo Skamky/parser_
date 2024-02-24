@@ -12,6 +12,7 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
+Route::get('api/send',[\App\Http\Controllers\SendController::class,'send']);
 
 Route::get('/', function () {
     return view('welcome');
